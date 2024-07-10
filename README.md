@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# Ecommerce TypeScript App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This is an ecommerce application built with React and TypeScript. Below are the key dependencies and their versions used in this project.
 
-## Available Scripts
+## Dependencies
 
-In the project directory, you can run:
+- **React**: A JavaScript library for building user interfaces.
+  - Version: 18.3.1
+  - Documentation: [React](https://reactjs.org/)
 
-### `npm start`
+- **React DOM**: This package serves as the entry point to the DOM and server renderers for React.
+  - Version: 18.3.1
+  - Documentation: [React DOM](https://reactjs.org/docs/react-dom.html)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Material-UI (MUI)**: A popular React UI framework.
+  - Core Version: 5.16.0
+  - Documentation: [Material-UI](https://mui.com/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Emotion**: Library for writing css styles with JavaScript.
+  - Emotion React Version: 11.11.4
+  - Emotion Styled Version: 11.11.5
+  - Documentation: [Emotion](https://emotion.sh/docs/introduction)
 
-### `npm test`
+- **React Hook Form**: Performant, flexible, and extensible forms with easy-to-use validation.
+  - Version: 7.52.1
+  - Documentation: [React Hook Form](https://react-hook-form.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React Router DOM**: Declarative routing for React.
+  - Version: 6.24.1
+  - Documentation: [React Router DOM](https://reactrouter.com/)
 
-### `npm run build`
+## TypeScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **TypeScript**: Typed JavaScript at Any Scale.
+  - Version: 4.9.5
+  - Documentation: [TypeScript](https://www.typescriptlang.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Testing Libraries
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **@testing-library/jest-dom**: Custom Jest matchers to test the state of the DOM.
+  - Version: 5.17.0
+  - Documentation: [Jest DOM](https://github.com/testing-library/jest-dom)
 
-### `npm run eject`
+- **@testing-library/react**: Simple and complete React DOM testing utilities that encourage good testing practices.
+  - Version: 13.4.0
+  - Documentation: [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **@testing-library/user-event**: Fire events the same way the user does.
+  - Version: 13.5.0
+  - Documentation: [User Event](https://testing-library.com/docs/ecosystem-user-event/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **@types/jest**: TypeScript definitions for Jest.
+  - Version: 27.5.2
+  - Documentation: [Types Jest](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jest)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Web Vitals**: A small, modular library for measuring all the Web Vitals metrics on real users.
+  - Version: 2.1.4
+  - Documentation: [Web Vitals](https://github.com/GoogleChrome/web-vitals)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Additional TypeScript Definitions
 
-## Learn More
+- **@types/node**: TypeScript definitions for Node.js.
+  - Version: 16.18.101
+  - Documentation: [Types Node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **@types/react**: TypeScript definitions for React.
+  - Version: 18.3.3
+  - Documentation: [Types React](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **@types/react-dom**: TypeScript definitions for React DOM.
+  - Version: 18.3.0
+  - Documentation: [Types React DOM](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom)
+
