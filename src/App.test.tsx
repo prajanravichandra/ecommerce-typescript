@@ -1,9 +1,17 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import logo from './logo.svg';
+import './App.css';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+interface AppProps {
+  name?: string;
+}
+
+export const App: React.FC<AppProps> = ({ name = "Gopal" }) => {
+  return (
+    <div>
+      <p>{name}</p>
+    </div>
+  );
+};
+
+export default App;
