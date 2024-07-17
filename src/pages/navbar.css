@@ -1,0 +1,10 @@
+.nav {
+    background-color: #2196f3; /* Example background color */
+    color: white; /* Example text color */
+  }
+  
+  .nav .MuiTypography-root {
+    /* Example styles for Typography components inside the Toolbar */
+    margin-left: 20px; /* Adjust margin as needed */
+  }
+  
